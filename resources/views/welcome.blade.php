@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bromegle - Chat with Strangers</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @vite('resources/css/app.css')
+
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
 <div id="app" class="flex flex-col items-center justify-center h-full">
