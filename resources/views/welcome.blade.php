@@ -34,7 +34,7 @@
     </div>
 </div>
 
-<script src="{{ mix('js/app.js') }}"></script>
+@vite(['resources/js/app.js'])
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script>
     const chatMessages = document.querySelector('.chat-messages');
